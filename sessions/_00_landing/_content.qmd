@@ -1,0 +1,29 @@
+# Global Day of Coderetreat
+
+*A day of deliberate practice and learning.*
+<br/>
+<br/>
+📆 Saturday, 2023-11-04
+<br/>
+☑️ Mandatory [registration](TODO)
+<br/>
+🧩 More details next slide
+<br/>
+<br/>
+**Looking forward to seeing you soon!**
+
+---
+
+## About
+<br/>
+The [Vienna software crafting community](https://swkwien.github.io/) invites you to participate
+in our local event for the [Global Day of Coderetreat](https://www.coderetreat.org/).
+<br/>
+<br/>
+On this day, we come together to learn from each other, practice pair programming &
+test-driven development and focus on design aspects related to decoupling.
+<br/>
+<br/>
+If that sounds interesting to you, we are thrilled to have you join us!
+
+[![](https://www.softwerkskammer.org/img/SoftwerkskammerWappenLinks.png){fig-align="center"}](https://www.softwerkskammer.org/)

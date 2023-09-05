@@ -1,0 +1,25 @@
+# Our retreat is coming to an end...
+
+---
+
+## Final Retrospective 😉
+
+* What did you learn?
+* What did you enjoy?
+* What did surprise you?
+* What do you take away?
+
+---
+
+## Global Day of Coderetreat
+
+*A day of deliberate practice and learning!*
+
+🛒🧾🛍️ &nbsp;&nbsp; {{< fa arrow-right >}}  &nbsp;&nbsp; 💡🤝🤓 &nbsp;&nbsp;&nbsp;  {{< fa arrow-right >}}  &nbsp;&nbsp;🪢✂️🧵&nbsp;&nbsp;&nbsp;  {{< fa arrow-right >}}  &nbsp;&nbsp;🥳
+
+<br>
+
+Thank you for joining! Your [feedback](https://pads.c3w.at/form/#/2/form/view/tM+9tLh82H6yKGbg0kTiCjkU+6zRcJLTXZ-IWbUH99Y/) is greatly appreciated.
+
+![](sessions/n_outro/feedback_form_qr_code.svg){.r-stretch}
+

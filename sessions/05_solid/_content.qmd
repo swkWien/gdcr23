@@ -1,0 +1,143 @@
+# Session 4
+
+Focus: Improve class design by applying principles
+
+Facilitator: Claus Aichinger [@clausaichinger](https://twitter.com/ClausAichinger)
+
+---
+
+## Requirements Change :-/
+
+Feature requests:
+
+- Introduce special deals database
+- Support HTML receipts
+- Allow discounted bundles
+- ...
+
+---
+
+## What now? 🪢👀
+
+<br>
+
+> Yes, decouplings sounds good. But... 🤔
+
+<br>
+
+> How? 🤷
+
+
+---
+
+## Apply principles!? 🪢✂️🧵
+
+> I'm not a great programmer; I'm just a good programmer with great habits.
+
+[Kent Beck](https://en.wikiquote.org/wiki/Kent_Beck) in *Refactoring: Improving the Design of Existing Code*
+
+---
+
+## Yes! Improve Class Design
+
+Apply so called [SOLID](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) principles:
+
+::: {.panel-tabset}
+
+### S
+
+The Single Responsibility Principle (SRP)
+
+> A class should have one, and only one, reason to change.
+
+or
+
+> A module [class] should be responsible to one, and only one, actor.
+
+### O
+
+The Open Closed Principle (OCP)
+
+> You should be able to extend a classes behavior, without modifying it.
+
+### L
+
+The Liskov Substitution Principle (LSP)
+
+> Derived classes must be substitutable for their base classes.
+
+### I
+
+The Interface Segregation Principle (ISP)
+
+> Make fine grained interfaces that are client specific.
+
+### D
+
+The Dependency Inversion Principle (DIP)
+
+> Depend on abstractions, not on concretions.
+:::
+
+---
+
+## What does it mean? 🧐
+
+For example:
+
+* SRP: Split up
+* OCP: Inject collaborators (dependencies) in constructor
+* DIP: Express collaborators through interfaces
+* ISP: Provide different interface depending on usage
+* ...
+
+---
+
+## Decouple using SOLID 🧩
+
+And pave the way for new features...
+
+---
+
+## Suggestion: SRP and `ShoppingCart`
+
+Relates to previous session.
+
+---
+
+## Suggestion: SRP and `ShoppingCart.handleOffers()`
+
+Relates to feature request.
+
+---
+
+## Suggestion: OCP & DIP and `SupermarketCatalog`
+
+Relates to feature request.
+
+---
+
+## Suggestion: OCP and `ReceiptPrinter`
+
+Relates to feature request.
+
+---
+
+{{< include ../_pairing.qmd >}}
+
+---
+
+{{< include ../_learning_and_practicing.qmd >}}
+
+---
+
+{{< include ../_retrospective.qmd >}}
+
+* Did you focus on a feature? Which?
+* Did you focus on a class? Which?
+* Which SOLID principle did you apply?
+* How did "apply principle" influence your development?
+
+---
+
+{{< include ../_short_break.qmd >}}

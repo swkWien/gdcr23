@@ -1,0 +1,74 @@
+# Session 1
+
+Focus: Familiarize yourself with the problem.
+
+Facilitator: Peter Kofler [@codecopkofler](https://twitter.com/codecopkofler)
+
+---
+
+## Our Kata: Supermarket Pricing
+
+![](sessions/02_pen_and_paper/Supermarket.jpg)
+
+---
+
+## Pricing goods at supermarkets {.smaller}
+
+* The supermarket has a catalogue with different products (rice, apples, etc.).
+* Each product has a price.
+  * Item Products have simple prices. E.g. a can of beans costs €1.65.
+  * Loose Weight Products have more complex prices. E.g. €1.99 per kilo.
+* The total price of the shopping cart is the sum of all the prices of the items.
+* Your receipt lists the items you've bought, the total price and discounts.
+* The supermarket runs special deals like
+  * Percent discount on item, e.g.
+    10% discount on rice, normal price €2.49 per bag.
+    20% discount on apples, normal price €1.99 per kilo.
+  * Buy two toothbrushes, get one free. Normal toothbrush is €0.99.
+  * X for Y discount, e.g.
+    Five tubes of toothpaste for €7.49, normal price €1.79.
+    Two boxes of cherry tomatoes for €0.99, normal price €0.69 per box.
+
+---
+
+## Our Mode of Work: Pen and Paper
+
+Before we start coding, let's think:
+
+* Identify concepts.
+* How would we design such a system?
+* Maybe do a verb-noun analysis.
+* Make a sketch.
+* Which actions/events are there?
+* Be explicit.
+
+Only work on requirements listed above!
+
+---
+
+## Extra Challenge: Decoupled Design
+
+* Do we need to get data from somewhere?
+* Do we need to write/print/format data somewhere?
+* Which "concerns" are there? (If concern means anything to you.)
+* Which domains/subdomains are involved? (If domain means anything to you.)
+
+---
+
+{{< include ../_pairing.qmd >}}
+
+---
+
+{{< include ../_learning_and_practicing.qmd >}}
+
+---
+
+{{< include ../_retrospective.qmd >}}
+
+* Which parts are "different"?
+* Which components did you identify?
+* Are Stock and Shop the same domain? No? How do we handle it?
+
+---
+
+{{< include ../_short_break.qmd >}}

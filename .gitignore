@@ -1,0 +1,7 @@
+# Exclude Quarto project
+/.quarto/
+# Exclude build
+*.html
+index_files/
+# Custom
+*private*

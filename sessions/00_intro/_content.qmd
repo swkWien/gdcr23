@@ -1,0 +1,116 @@
+# Global Day of Coderetreat
+
+*Welcome to a day of deliberate practice and learning!*
+
+<br>
+<br>
+
+🛒🧾🛍️ &nbsp;&nbsp; {{< fa arrow-right >}} &nbsp;&nbsp; 💡🤝🤓 &nbsp;&nbsp;&nbsp;  {{< fa arrow-right >}}  &nbsp;&nbsp;🪢✂️🧵
+
+---
+
+## Which Language? 💬
+
+Spricht jemand nur Deutsch? Bitte melden.
+
+Does anyone speak only English? Please report.
+
+---
+
+## Big Thank you to Nagarro! 💗
+
+Thank you very much for hosting us!
+
+---
+
+## Dinner 🍽️
+
+Who wants to join dinner?
+
+*Please raise your hand.*
+
+---
+
+## Is this your first Coderetreat? 🥇
+
+*Please raise your hand.*
+
+---
+
+## What is a Coderetreat? 🤔
+
+> A day of deliberate practice and learning.
+
+---
+
+### Deliberate Practice and Learning?
+
+- Not about getting things done
+- Doing things differently
+- Try out new ideas
+- Do it right!
+
+---
+
+### How does it work?
+
+- We work on the same problem repeatedly.
+- Try out different approaches.
+- Learn from each other.
+
+Practice - reflect - improve! 🥳
+
+---
+
+## Schedule 🕤 {.smaller}
+
+| Time | Topic  |
+|------|--------|
+| 08:20    | Arrival & Breakfast  |
+| 09:00    | Welcome at Nagarro  |
+| 09:10 | Intro Coderetreat 👈 |
+|     | Session 1 by Peter Kofler |
+|     | Session 2 by Patrick Scheibert & Katrin Heiderer  |
+|     | Session 3 by Adam Zielinski  |
+| 13:10 | Lunch Break  |
+|     | Session 4 by Claus Aichinger |
+|     | Session 5 by Roland Germ  |
+|     | Final Retrospective
+| 17:00 | Closing |
+
+---
+
+## About us 👋
+
+*Facilitators in order of appearance.*
+
+- Peter Kofler [@codecopkofler](https://twitter.com/codecopkofler)
+- Katrin Heiderer &
+  Patrick Scheibert
+- Adam Zielinski [@adam0x5A](https://twitter.com/adam0x5A)
+- Claus Aichinger [@clausaichinger](https://twitter.com/ClausAichinger)
+- Roland Germ [@rolgerm](https://twitter.com/rolgerm)
+
+---
+
+## What about you? 💐
+
+Let's get to know each other:
+
+* Who are you?
+* Why is it better to be here than elsewhere?
+* What will you contribute?
+
+Form groups of three (with people you don't know).
+
+---
+
+## Code of Conduct 🤝
+
+Be mindful of your peers.
+
+Be respectful.
+
+---
+
+## Questions?

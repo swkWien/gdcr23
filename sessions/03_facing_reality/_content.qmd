@@ -1,0 +1,73 @@
+# Session 2
+
+Focus: Familiarize yourself with the code (and face reality).
+
+Facilitator: Patrick Scheibert, Katrin Heiderer
+
+---
+
+## Existing Code :-(
+
+The code is there, we want to improve it.
+
+::: {.r-fit-text}
+[https://github.com/swkWien/SupermarketReceipt-Refactoring-Kata](https://github.com/swkWien/SupermarketReceipt-Refactoring-Kata)
+:::
+
+---
+
+## Code Review, Refactoring, Pair-Programming
+
+* Read the code ("read by refactoring")
+* Which design elements (aka classes) are there?
+* How are they connected? Which classes hold which data?
+* Which classes are doing what?
+* Compare with your diagrams from session 1.
+
+---
+
+## Tips
+
+* Start with small IDE refactoring steps.
+* Rename the variables so they are more meaningful.
+* Extract methods to reduce complexity of the code.
+
+---
+
+## Extra Challenges
+
+### One Level of Indentation
+
+Each method cannot contain statements that require more than one level of indentation (conditional statements, loops, etc)
+
+### Short Methods
+
+Limit the number of statements permitted for a function to 5 lines.
+
+---
+
+{{< include ../_pairing.qmd >}}
+
+---
+
+{{< include ../_learning_and_practicing.qmd >}}
+
+---
+
+{{< include ../_retrospective.qmd >}}
+
+* "I agree / Don't agree"
+
+---
+
+{{< include ../_retrospective.qmd >}}
+
+* Which refactorings did you do?
+
+* Which class or method names did you change?
+
+* What was your experience in the pairs with different languages?
+
+---
+
+{{< include ../_short_break.qmd >}}

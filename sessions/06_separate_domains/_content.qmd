@@ -1,0 +1,93 @@
+# Session 5
+
+Focus: Separating a Domain into Bounded Contexts
+
+Facilitator: Roland Germ [@rolgerm](https://twitter.com/rolgerm)
+
+---
+
+## Decoupling into functional Areas
+
+* Which grouping of the domain did you identify in the 1st session today?
+* How should we split a domain in functional areas?
+
+---
+
+## Domain and Bounded Contexts
+
+* A Domain consists the whole model
+* Large models are divided into subdomains or bounded contexts driven by separating business needs
+* A bounded context is a projection of the problem space into the solution space
+* Code that combines two bounded contexts gets convoluted because it's mixing two separate vocabularies together ("Martin Fowler"). 
+
+---
+
+## Bounded Contexts of the Supermarket Domain
+
+![](sessions/06_separate_domains/SupermarketDomain.jpg)
+
+---
+
+## Anti-Corruption-Layer - a clear boundary between bounded contexts
+
+![](sessions/06_separate_domains/gateway-sketch.png)
+
+---
+
+## The journey from direct dependencies
+
+![](sessions/06_separate_domains/step1.png)
+
+---
+
+## To dependency inversion
+
+![](sessions/06_separate_domains/step2.png)
+
+---
+
+## Anti-Corruption-Layer
+
+![](sessions/06_separate_domains/step3.png)
+
+---
+
+## Multiple Anti-Corruption-Layer building a Hexagonal Architecture
+
+![](sessions/06_separate_domains/step4.png)
+
+---
+
+## Tips
+
+* Start by creating directories for the separate domains.
+* Decide which code belongs to a domain and move it to the right location (this includes moving methods/functions)
+* Create your anti-corruption-layers between the domains (start with the simplest).
+
+---
+
+## Extra Challenge: Don't share the Product between domains
+
+The Product is somehow a shared model. But in future the Product could be enhanced and each domain needs its own view or selected data of a Product.
+
+* What is needed to identify a product in a domain?
+* Which domain does the Printer belong to?
+
+---
+
+{{< include ../_pairing.qmd >}}
+
+---
+
+{{< include ../_learning_and_practicing.qmd >}}
+
+---
+
+{{< include ../_retrospective.qmd >}}
+
+* Which domains did you create ?
+* Which dependencies do you have finally?
+* How did name the name the ports and adapters?
+* What constructs hindered you?
+* What do we achieve by applying a hexagonal architecture
+

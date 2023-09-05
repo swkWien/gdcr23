@@ -1,0 +1,80 @@
+# Today's Practice 🥷
+
+---
+
+## Supermarket Receipt 🛒🧾🛍️
+
+For a collection of items in the shopping cart
+
+1. look up prices,
+1. apply discounts,
+1. compute total and
+1. generate receipt.
+
+More about the assignment in the first session.
+
+---
+
+## Pair Programming 🤝
+
+. . .
+
+Roles:
+
+- 🧭 **Navigator** Giving directions, looking ahead
+- 🚗 **Driver** Manipulating the code, concerned with small details
+
+Procedure:
+
+- Talk to each other
+- Switch roles every **5 minutes**
+
+---
+
+## Refactoring 🔧
+
+. . .
+
+- Improve code but don't change behavior
+
+- Don't break interfaces
+
+---
+
+## Test-driven Development 🧪
+
+. . .
+
+- If you write new code, write a test first
+
+- If you change code, is it covered by tests?
+
+---
+
+## Decoupled Design 🤔
+
+. . .
+
+> What is *design*?
+
+. . .
+
+> Why does it matter?
+
+. . .
+
+*Today's practice: strategies to decouple design!*
+
+---
+
+## How do we get there? 🤓
+
+<!-- TODO: visualize that -->
+
+- Revisit same problem repeatedly
+
+- Try different strategies to improve design
+
+---
+
+## Questions?
