@@ -5,6 +5,7 @@ project:
 
 format:
   revealjs:
+    title: "Global Day of Codereatreat 2023"
     center: true
     scrollable: true
     footer: "Global Day of Codereatreat 2023 by [Softwerkskammer Wien](https://swkwien.github.io/) at [Nagarro](https://www.nagarro.com/de)"
