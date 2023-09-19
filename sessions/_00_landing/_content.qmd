@@ -2,12 +2,14 @@
 
 *A day of deliberate practice and learning.*
 <br/>
+*A warmup event on Friday.*
+<br/>
 <br/>
 📆 Saturday, 2023-11-04
 <br/>
 ☑️ Mandatory [registration](https://www.eventbrite.com/e/global-day-of-coderetreat-vienna-2023-tickets-719761033627)
 <br/>
-🧩 More details next slide
+🧩 More details next slides
 <br/>
 <br/>
 **Looking forward to seeing you soon!**
@@ -27,3 +29,14 @@ test-driven development and focus on design aspects related to decoupling.
 If that sounds interesting to you, we are thrilled to have you join us!
 
 [![](https://www.softwerkskammer.org/img/SoftwerkskammerWappenLinks.png){fig-align="center"}](https://www.softwerkskammer.org/)
+
+---
+
+## Warmup Event
+
+Run by [Peter Kofler](http://blog.code-cop.org/)
+<br/>
+<br/>
+📆 Friday, 2023-11-03
+<br/>
+🌐 Remote/online
