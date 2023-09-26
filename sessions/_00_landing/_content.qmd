@@ -7,6 +7,8 @@
 <br/>
 📆 Saturday, 2023-11-04
 <br/>
+🤓 Focus on different **TDD styles** (test-first development)
+<br/>
 ☑️ Mandatory [registration](https://www.eventbrite.com/e/global-day-of-coderetreat-vienna-2023-tickets-719761033627)
 <br/>
 🧩 More details next slides
@@ -33,6 +35,7 @@ If that sounds interesting to you, we are thrilled to have you join us!
 ---
 
 ## Warmup Event
+### Zero Overhead Coderetreat
 
 Run by [Peter Kofler](http://blog.code-cop.org/)
 <br/>
