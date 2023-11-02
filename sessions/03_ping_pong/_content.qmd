@@ -1,0 +1,97 @@
+# Session 2
+
+Focus: Ping Pong 🏓
+
+Facilitator: Rea Sutter 
+
+---
+
+## Get Your Hands Dirty 🛠️👷🏗️
+
+Now let's start coding!
+
+Work test-driven, start with any test from last session
+
+Switch roles ping-pong style
+
+---
+
+## How to TDD 🤔✅💡
+
+::: {.fragment}
+🟥 RED - write a test and see it fail
+:::
+
+::: {.fragment}
+🟩 GREEN - write **minimal amount** of code to pass the test
+:::
+
+::: {.fragment}
+🟨 REFACTOR - don't add/change functionality
+:::
+
+::: {.fragment}
+🔁 REPEAT
+:::
+
+---
+
+## How to Ping Pong 🤔🏓💡
+
+::: {.fragment}
+🅰️ writes a test, sees it fail
+:::
+
+::: {.fragment}
+🇧 writes the code, sees tests succeed
+:::
+
+::: {.fragment}
+🅰️ refactors, tests still green
+:::
+
+::: {.fragment}
+🇧 writes the next test, sees it fail
+:::
+
+::: {.fragment}
+🅰️ writes the code, sees tests succeed
+:::
+
+::: {.fragment}
+etc.
+:::
+
+---
+
+## Demo 🧐💻
+
+---
+
+## Extra Challenge: Explore Directions 🧭🗺️
+
+> Inside out? Outside in?
+
+Which direction are you more comfortable with?
+
+Try the other one!
+
+---
+
+{{< include ../_pairing.qmd >}}
+
+---
+
+{{< include ../_learning_and_practicing.qmd >}}
+
+---
+
+{{< include ../_retrospective.qmd >}}
+
+* What went well?
+* What was the most difficult part?
+* Which role do you prefer, and why?
+
+---
+
+{{< include ../_short_break.qmd >}}
