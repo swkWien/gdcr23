@@ -1,0 +1,106 @@
+# Session 4: Outside-In with test doubles 🧬
+
+<br>
+
+Focus: separate system under test and its collaborators
+
+<br>
+
+Facilitator: Adam Zielinski
+
+---
+
+## What's the item under test? 🧐
+
+<br>
+
+Motivation: often the tested unit relies on other units (**collaborators**) to fulfill its behaviour
+
+* state verification and behavior verification
+* avoid non-determinism
+* speed
+
+---
+
+## Imagine... 🌤️
+
+<br>
+
+Solution: **test doubles** 🪢
+
+A pattern where you replace a production object for testing purposes [^1][^2][^3]
+
+<br>
+
+[^1]: [xUnit Test Patterns (Meszaros 2007)](http://xunitpatterns.com/)
+[^2]: [martinfowler.com/articles/mocksArentStubs.html](https://martinfowler.com/articles/mocksArentStubs.html)
+[^3]: [wikipedia.org/wiki/Test_double](https://en.wikipedia.org/wiki/Test_double)
+
+---
+
+## Test double patterns[^4] 🪢
+
+::: {style="font-size: 50%;"}
+* **Dummy** objects are passed around but never actually used.
+  Usually they are just used to fill parameter lists.
+* **Fake** objects actually have working implementations, but usually take
+  some shortcut which makes them not suitable for production.
+* **Stubs** provide canned answers to calls made during the test,
+  usually not responding at all to anything outside what's programmed in for the test.
+* **Spies** are stubs that also record some information based on how they were called.
+  One form of this might be an email service that records how many messages it was sent.
+* **Mocks** objects pre-programmed with expectations which form a specification of
+  the calls they are expected to receive.
+:::
+
+<br>
+
+[^4]: [martinfowler.com/bliki/TestDouble.html](https://www.martinfowler.com/bliki/TestDouble.html)
+
+---
+
+## Test doubles goes Tetris 🧬
+
+::: {style="font-size: 80%;"}
+```typescript
+interface Bottom {
+
+    /** Check a piece has contact with bottom */
+    touches(piece: Piece): boolean
+
+    /** Add the piece to the bottom because it has landed */
+    land(piece: Piece): void
+
+    /**
+     * Check for full lines and remove the returned lines,
+     * empty when no full lines there
+     * count from bottom, 0 is lowest.
+     */
+    removeFullLines(): void
+
+    /** Return max height of the different columns of bottom. */
+    maximumHeight(): number
+
+}
+```
+:::
+
+---
+
+{{< include ./sessions/_pairing.qmd >}}
+
+---
+
+{{< include ./sessions/_learning_and_practicing.qmd >}}
+
+---
+
+{{< include ./sessions/_retrospective.qmd >}}
+
+* What went well?
+* What was your first test?
+* Which role do you prefer, and why?
+
+---
+
+{{< include ./sessions/_short_break.qmd >}}

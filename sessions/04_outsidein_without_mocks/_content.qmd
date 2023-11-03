@@ -1,0 +1,32 @@
+# Session 3: Outside-In without Mocks {{< fa arrow-right-to-bracket >}}
+
+<br>
+
+Focus: TODO
+
+<br>
+
+Facilitator: Gregor Riegler
+
+---
+
+TODO
+
+---
+
+{{< include ./sessions/_pairing.qmd >}}
+
+---
+
+{{< include ./sessions/_learning_and_practicing.qmd >}}
+
+---
+
+{{< include ./sessions/_retrospective.qmd >}}
+
+* What went well?
+* What was your first test?
+
+---
+
+{{< include ./sessions/_short_break.qmd >}}

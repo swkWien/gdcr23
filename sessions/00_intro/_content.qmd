@@ -2,11 +2,6 @@
 
 *Welcome to a day of deliberate practice and learning!*
 
-<br>
-<br>
-
-🛒🧾🛍️ &nbsp;&nbsp; {{< fa arrow-right >}} &nbsp;&nbsp; 💡🤝🤓 &nbsp;&nbsp;&nbsp;  {{< fa arrow-right >}}  &nbsp;&nbsp;🪢✂️🧵
-
 ---
 
 ## Which Language? 💬
@@ -83,11 +78,12 @@ Practice - reflect - improve! 🥳
 ## About us 👋
 
 *Facilitators in order of appearance.*
-- Claus Aichinger [@clausaichinger](https://twitter.com/ClausAichinger)
-- Rea Sutter
-- Gregor Riegler [@gregor_riegler](https://twitter.com/gregor_riegler)
-- Adam Zielinski [@adam0x5A](https://twitter.com/adam0x5A)
-- Roland Germ [@rolgerm](https://twitter.com/rolgerm)
+
+* Claus Aichinger [@clausaichinger](https://twitter.com/ClausAichinger)  
+* Rea Sutter  
+* Gregor Riegler [@gregor_riegler](https://twitter.com/gregor_riegler)  
+* Adam Zielinski [@adam0x5A](https://twitter.com/adam0x5A)  
+* Roland Germ [@rolgerm](https://twitter.com/rolgerm)  
 
 ---
 
