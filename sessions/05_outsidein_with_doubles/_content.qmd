@@ -10,23 +10,19 @@ Facilitator: Adam Zielinski
 
 ---
 
-## What's the item under test? 🧐
+## Separation of concerns
 
 <br>
 
 Motivation: often the tested unit relies on other units (**collaborators**) to fulfill its behaviour
 
-* state verification and behavior verification
-* avoid non-determinism
-* speed
+* What's the unit under test? 🧐
+* Keep code simple (fast, minimal, deterministic, ...)
+* Test non-pure interfaces (indirect input / indirect output)
 
 ---
 
-## Imagine... 🌤️
-
-<br>
-
-Solution: **test doubles** 🪢
+## Test doubles 🪢
 
 A pattern where you replace a production object for testing purposes [^1][^2][^3]
 
@@ -38,28 +34,31 @@ A pattern where you replace a production object for testing purposes [^1][^2][^3
 
 ---
 
-## Test double patterns[^4] 🪢
+## Test double patterns 🪢
 
+* State verification: Fake Object, Stubs
+* Behavior verification: Spy, Mock (the Sherlock Holmes of unit testing)
+
+<!--
 ::: {style="font-size: 70%;"}
-* **Dummy** objects are passed around but never actually used.
-  Usually they are just used to fill parameter lists.
 * **Fake** objects actually have working implementations, but usually take
   some shortcut which makes them not suitable for production.
 * **Stubs** provide canned answers to calls made during the test,
   usually not responding at all to anything outside what's programmed in for the test.
-* **Spies** are stubs that also record some information based on how they were called.
+* **Spies** are stubs that also record some information based on how they were called.e
   One form of this might be an email service that records how many messages it was sent.
 * **Mocks** objects pre-programmed with expectations which form a specification of
   the calls they are expected to receive.
 :::
+-->
 
 <br>
 
-[^4]: [martinfowler.com/bliki/TestDouble.html](https://www.martinfowler.com/bliki/TestDouble.html)
+[martinfowler.com/bliki/TestDouble.html](https://www.martinfowler.com/bliki/TestDouble.html)
 
 ---
 
-## Test doubles goes Tetris 🧬
+## Test doubles goes Tetris 🗼
 
 ::: {style="font-size: 80%;"}
 ```typescript
@@ -76,7 +75,7 @@ interface Bottom {
      * empty when no full lines there
      * count from bottom, 0 is lowest.
      */
-    removeFullLines(): void
+    removeFullLines(): number[]
 
     /** Return max height of the different columns of bottom. */
     maximumHeight(): number
@@ -99,7 +98,7 @@ interface Bottom {
 
 * What went well?
 * What was your first test?
-* Which role do you prefer, and why?
+* What advantages could you identify when using test doubles?
 
 ---
 
