@@ -1,4 +1,4 @@
-# Session 3: Outside-In without Mocks 🍡
+# Session 3: Outside-In without Mocks {{< fa arrow-right-to-bracket >}}
 
 <br>
 
@@ -26,7 +26,6 @@ TODO
 
 * What went well?
 * What was your first test?
-* Which role do you prefer, and why?
 
 ---
 
