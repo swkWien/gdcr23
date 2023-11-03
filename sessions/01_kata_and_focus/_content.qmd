@@ -16,7 +16,7 @@ More about the assignment in the first session.
 
 ## Pair Programming 🤝
 
-. . .
+"byproduct is code"
 
 Roles:
 
@@ -26,7 +26,7 @@ Roles:
 Procedure:
 
 - Talk to each other
-- Switch roles every **5 minutes**
+- Switch roles every **regulary**
 
 ---
 
