@@ -16,7 +16,7 @@ More about the assignment in the first session.
 
 ## Pair Programming 🤝
 
-""Pair programming is a conversation between people, where the byproduct is code."
+"Pair programming is a conversation between people, where the byproduct is code."
 
 Roles:
 
