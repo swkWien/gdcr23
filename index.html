@@ -7,7 +7,9 @@
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
   <title>Global Day of Codereatreat 2023</title>
@@ -28,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -331,37 +398,560 @@
 </div>
 
 </section>
+<section class="slide level2 center">
+
+<!-- {{< include sessions/_00_landing/_content.qmd >}} -->
+</section>
 <section>
 <section id="global-day-of-coderetreat" class="title-slide slide level1 center">
 <h1>Global Day of Coderetreat</h1>
-<p><em>A day of deliberate practice and learning.</em> <br> <em>A warmup event on Friday.</em> <br> <br> 📆 Saturday, 2023-11-04 <br> 🤓 Focus on different <strong>TDD styles</strong> to facilitate test-first development <br> ☑️ Mandatory <a href="https://www.eventbrite.com/e/global-day-of-coderetreat-vienna-2023-tickets-719761033627">registration</a> <br> 🧩 More details next slides <br> <br> <strong>Looking forward to seeing you soon!</strong></p>
+<p><em>Welcome to a day of deliberate practice and learning!</em></p>
 </section>
-<section id="about" class="slide level2 center">
-<h2>About</h2>
-<p><br> The <a href="https://swkwien.github.io/">Vienna software crafting community</a> invites you to participate in our local event for the <a href="https://www.coderetreat.org/">Global Day of Coderetreat</a>. <br> <br> On this day, we come together to learn from each other, practice pair programming &amp; test-driven development - this year we will focus on various styles of TDD. <br> <br> If that sounds interesting to you, we are thrilled to have you join us!</p>
-
-<img data-src="https://www.softwerkskammer.org/img/SoftwerkskammerWappenLinks.png" class="r-stretch quarto-figure-center"></section>
-<section id="warmup-event" class="slide level2 center">
-<h2>Warmup Event</h2>
-<h3 id="zero-overhead-coderetreat">Zero Overhead Coderetreat</h3>
-<p>Run by <a href="http://blog.code-cop.org/">Peter Kofler</a> <br> <br> 📆 Friday, 2023-11-03 <br> 🌐 Remote/online</p>
+<section id="which-language" class="slide level2 center">
+<h2>Which Language? 💬</h2>
+<p>Spricht jemand nur Deutsch? Bitte melden.</p>
+<p>Does anyone speak only English? Please report.</p>
+</section>
+<section id="big-thank-you-to-nagarro" class="slide level2 center">
+<h2>Big Thank you to Nagarro! 💗</h2>
+<p>Thank you very much for hosting us!</p>
+</section>
+<section id="dinner" class="slide level2 center">
+<h2>Dinner 🍽️</h2>
+<p>Who wants to join dinner?</p>
+<p><em>Please raise your hand.</em></p>
+</section>
+<section id="is-this-your-first-coderetreat" class="slide level2 center">
+<h2>Is this your first Coderetreat? 🥇</h2>
+<p><em>Please raise your hand.</em></p>
+</section>
+<section id="what-is-a-coderetreat" class="slide level2 center">
+<h2>What is a Coderetreat? 🤔</h2>
+<blockquote>
+<p>A day of deliberate practice and learning.</p>
+</blockquote>
 </section>
 <section class="slide level2 center">
 
-<p>🏗️ To be continued… 🚧</p>
-<!-- {{< include sessions/00_intro/_content.qmd >}}  -->
-<!-- {{< include sessions/01_kata_and_focus/_content.qmd >}}  -->
-<!-- {{< include sessions/02_pen_and_paper/_content.qmd >}}  -->
-<!-- {{< include sessions/03_classical_tdd/_content.qmd >}}  -->
-<!-- {{< include sessions/04_outsidein_without_mocks/_content.qmd >}}  -->
-<!-- {{< include sessions/05_outsidein_with_doubles/_content.qmd >}}  -->
-<!-- {{< include sessions/06_constraints/_content.qmd >}}  -->
-<!-- {{< include sessions/n_outro/_content.qmd >}}  -->
+<h3 id="deliberate-practice-and-learning">Deliberate Practice and Learning?</h3>
+<ul>
+<li>Not about getting things done</li>
+<li>Doing things differently</li>
+<li>Try out new ideas</li>
+<li>Do it right!</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<h3 id="how-does-it-work">How does it work?</h3>
+<ul>
+<li>We work on the same problem repeatedly.</li>
+<li>Try out different approaches.</li>
+<li>Learn from each other.</li>
+</ul>
+<p>Practice - reflect - improve! 🥳</p>
+</section>
+<section id="schedule" class="slide level2 smaller center">
+<h2>Schedule 🕤</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Time</th>
+<th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>08:20</td>
+<td>Arrival &amp; Breakfast</td>
+</tr>
+<tr class="even">
+<td>09:00</td>
+<td>Welcome at Nagarro</td>
+</tr>
+<tr class="odd">
+<td>09:10</td>
+<td>Intro Coderetreat 👈</td>
+</tr>
+<tr class="even">
+<td>10:00</td>
+<td>Session 1 by Claus Aichinger</td>
+</tr>
+<tr class="odd">
+<td>10:50</td>
+<td>Session 2 by Rea Sutter</td>
+</tr>
+<tr class="even">
+<td>12:00</td>
+<td>Session 3 by Gregor Riegler</td>
+</tr>
+<tr class="odd">
+<td>13:10</td>
+<td>Lunch Break 1h</td>
+</tr>
+<tr class="even">
+<td>14:10</td>
+<td>Session 4 by Adam Zielinski</td>
+</tr>
+<tr class="odd">
+<td>15:20</td>
+<td>Session 5 by Roland Germ</td>
+</tr>
+<tr class="even">
+<td>16:30</td>
+<td>Final Retrospective</td>
+</tr>
+<tr class="odd">
+<td>17:00</td>
+<td>Closing</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="about-us" class="slide level2 center">
+<h2>About us 👋</h2>
+<p><em>Facilitators in order of appearance.</em></p>
+<ul>
+<li>Claus Aichinger <a href="https://twitter.com/ClausAichinger"><span class="citation" data-cites="clausaichinger">@clausaichinger</span></a><br>
+</li>
+<li>Rea Sutter<br>
+</li>
+<li>Gregor Riegler <a href="https://twitter.com/gregor_riegler"><span class="citation" data-cites="gregor_riegler">@gregor_riegler</span></a><br>
+</li>
+<li>Adam Zielinski <a href="https://twitter.com/adam0x5A"><span class="citation" data-cites="adam0x5A">@adam0x5A</span></a><br>
+</li>
+<li>Roland Germ <a href="https://twitter.com/rolgerm"><span class="citation" data-cites="rolgerm">@rolgerm</span></a></li>
+</ul>
+</section>
+<section id="what-about-you" class="slide level2 center">
+<h2>What about you? 💐</h2>
+<p>Let’s get to know each other:</p>
+<ul>
+<li>Who are you?</li>
+<li>Why is it better to be here than elsewhere?</li>
+<li>What will you contribute?</li>
+</ul>
+<p>Form groups of three (with people you don’t know).</p>
+</section>
+<section id="code-of-conduct" class="slide level2 center">
+<h2>Code of Conduct 🤝</h2>
+<p>This code of conduct outlines our expectations for participants within our community:</p>
+<ul>
+<li>Be friendly and patient. Be welcoming.</li>
+<li>Be mindful of your peers.</li>
+<li>Be respectful.</li>
+<li>Be careful in the words that we choose.</li>
+</ul>
+</section>
+<section id="questions" class="slide level2 center">
+<h2>Questions?</h2>
+</section></section>
+<section>
+<section id="todays-practice" class="title-slide slide level1 center">
+<h1>Today’s Practice 🥷</h1>
+
+</section>
+<section id="tetris" class="slide level2 center">
+<h2>Tetris🕹️🏗️💯</h2>
+
+<img data-src="./sessions/01_kata_and_focus/Tetris_collection_Simon_Laroche.jpg" style="width:90.0%" class="r-stretch quarto-figure-center"><ul>
+<li>Tetris is a popular block-stacking puzzle game</li>
+<li>Created by Alexey Pajitnov in 1984</li>
+<li>Tetris has been released on a variety of platforms, and standalone products</li>
+</ul>
+<p>More about the assignment in the first session.</p>
+</section>
+<section id="pair-programming" class="slide level2 center">
+<h2>Pair Programming 🤝</h2>
+<p>“Pair programming is a conversation between people, where the byproduct is code.”</p>
+<p>Roles:</p>
+<ul>
+<li>🧭 <strong>Navigator</strong> Giving directions, looking ahead</li>
+<li>🚗 <strong>Driver</strong> Manipulating the code, concerned with small details</li>
+</ul>
+<p>Procedure:</p>
+<ul>
+<li>Talk to each other</li>
+<li>Switch roles every <strong>regulary</strong></li>
+</ul>
+</section>
+<section id="test-driven-development" class="slide level2 center">
+<h2>Test-driven Development 🧪</h2>
+<div class="fragment">
+<ul>
+<li><p>If you write new code, write a test first</p></li>
+<li><p>If you change code, is it covered by tests?</p></li>
+</ul>
+</div>
+</section>
+<section class="slide level2 center">
+
+<p><em>Today’s practice: TDD styles!</em></p>
+</section>
+<section id="how-do-we-get-there" class="slide level2 center">
+<h2>How do we get there? 🤓</h2>
+<ul>
+<li><p>Revisit same problem repeatedly</p></li>
+<li><p>Try different strategies to improve design</p></li>
+</ul>
+</section>
+<section id="questions-1" class="slide level2 center">
+<h2>Questions?</h2>
+</section></section>
+<section>
+<section id="session-1-pen-paper" class="title-slide slide level1 center">
+<h1>Session 1: Pen &amp; Paper 📝</h1>
+<p><br></p>
+<p>Focus: Familiarize yourself with the problem</p>
+<p><br></p>
+<p>Facilitator: Claus Aichinger</p>
+</section>
+<section id="kata-tetris" class="slide level2 center">
+<h2>Kata: Tetris</h2>
+
+<img data-src="./sessions/02_pen_and_paper/Typical_Tetris_Game.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section>
+<section id="tetris-gameplay" class="slide level2 center">
+<h2>Tetris: Gameplay 🕹️🏗️💯</h2>
+<ul>
+<li>Pieces descend onto playing field</li>
+<li>Player arranges pieces to complete lines</li>
+<li>Completed lines disappear and grant points</li>
+<li>Game ends when uncleared lines reach the top</li>
+<li>The more points the better</li>
+</ul>
+</section>
+<section id="strategy-pen-paper" class="slide level2 center">
+<h2>Strategy: Pen &amp; Paper 📝🤔💬</h2>
+<p>Before we start coding, let’s think:</p>
+<ul>
+<li>Identify concepts and components</li>
+<li><strong>Simplify!</strong></li>
+<li>Make a sketch</li>
+<li>Be explicit</li>
+<li><strong>Derive test cases</strong></li>
+</ul>
+</section>
+<section id="extra-challenge-explore-directions" class="slide level2 center">
+<h2>Extra Challenge: Explore Directions 🧭🗺️</h2>
+<blockquote>
+<p>How would you implement Tetris?</p>
+</blockquote>
+<p>Inside-Out:</p>
+<ul>
+<li>What is inside?</li>
+<li>How can you drive your implementation outward?</li>
+</ul>
+<p>Outside-In:</p>
+<ul>
+<li>What is outside?</li>
+<li>How can you drive your implementation inward?</li>
+</ul>
+</section>
+<section id="find-a-partner" class="slide level2 center">
+<h2>Find a Partner! 👀</h2>
+</section>
+<section id="deliberate-practice-and-learning-1" class="slide level2 center">
+<h2>Deliberate Practice and Learning 🤓</h2>
+</section>
+<section id="retrospective" class="slide level2 center">
+<h2>Retrospective 🏟️</h2>
+<ul>
+<li>How did you simplify?</li>
+<li>What is your first test case?</li>
+<li>What do you think about <em>directions</em>?</li>
+</ul>
+</section>
+<section id="enjoy-the-break" class="slide level2 center">
+<h2>Enjoy the Break ☕</h2>
+<p><em>And be back in time.</em></p>
+</section></section>
+<section>
+<section id="classical-tdd-fa-arrow-right-from-bracket" class="title-slide slide level1 center">
+<h1>Classical TDD <i class="fa-solid fa-arrow-right-from-bracket" aria-hidden="true"></i></h1>
+<p>Focus: Warm up your TDD and pairing muscles</p>
+<p>Facilitator: Rea Sutter</p>
+</section>
+<section id="get-your-hands-dirty" class="slide level2 center">
+<h2>Get Your Hands Dirty 🛠️👷🏗️</h2>
+<blockquote>
+<p><strong>Classical TDD / Detroit School</strong></p>
+</blockquote>
+<p>Work inside out <i class="fa-solid fa-arrow-right-from-bracket" aria-hidden="true"></i></p>
+<p>Start with a simple test</p>
+<p>Switch roles ping-pong style</p>
+</section>
+<section id="how-to-tdd" class="slide level2 center">
+<h2>How to TDD 🤔✅💡</h2>
+<p>🟥 RED - write a test and see it fail</p>
+<p>🟩 GREEN - write <strong>minimal amount</strong> of code to pass the test</p>
+<p>🟨 REFACTOR - don’t add/change functionality!</p>
+<p>&nbsp;</p>
+<p>🔁 REPEAT</p>
+</section>
+<section id="how-to-ping-pong" class="slide level2 center">
+<h2>How to Ping Pong 🤔🏓💡</h2>
+<div class="fragment">
+<p>🟥 🅰️ writes a test, sees it fail</p>
+</div>
+<div class="fragment">
+<p>🟩 🇧 writes the code, sees test(s) succeed</p>
+</div>
+<div class="fragment">
+<p>🟨 🅰️ and/or 🇧 refactors, test(s) still green</p>
+</div>
+<div class="fragment">
+<p>🟥 🇧 writes the next test, sees it fail</p>
+</div>
+<div class="fragment">
+<p>🟩 🅰️ writes the code, sees tests succeed</p>
+</div>
+<div class="fragment">
+<p>🟨 🟥 🟩 🟨 etc.</p>
+</div>
+</section>
+<section id="demo" class="slide level2 center">
+<h2>Demo 🧐💻</h2>
+</section>
+<section id="find-a-partner-1" class="slide level2 center">
+<h2>Find a Partner! 👀</h2>
+</section>
+<section id="deliberate-practice-and-learning-2" class="slide level2 center">
+<h2>Deliberate Practice and Learning 🤓</h2>
+</section>
+<section id="retrospective-1" class="slide level2 center">
+<h2>Retrospective 🏟️</h2>
+<ul>
+<li>What went well?</li>
+<li>What was your first test?</li>
+<li>Which role do you prefer, and why?</li>
+</ul>
+</section>
+<section id="enjoy-the-break-1" class="slide level2 center">
+<h2>Enjoy the Break ☕</h2>
+<p><em>And be back in time.</em></p>
+</section></section>
+<section>
+<section id="session-3-outside-in-without-mocks-fa-arrow-right-to-bracket" class="title-slide slide level1 center">
+<h1>Session 3: Outside-In without Mocks <i class="fa-solid fa-arrow-right-to-bracket" aria-hidden="true"></i></h1>
+<p><br></p>
+<p>Focus: <strong>Ignore the inside</strong> and <strong>avoid mocks</strong> by using <strong>Sociable Tests</strong> and <strong>State-Based Tests</strong>.</p>
+<p><br></p>
+<p>Facilitator: Gregor Riegler</p>
+</section>
+<section id="outside-you-say" class="slide level2 center">
+<h2>Outside you say?</h2>
+
+<img data-src="./sessions/04_outsidein_without_mocks/outside-in.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section>
+<section id="big-units" class="slide level2 center">
+<h2>Big Units!</h2>
+<p><br></p>
+
+<img data-src="./sessions/04_outsidein_without_mocks/isolate.png" style="width:80.0%" class="r-stretch quarto-figure-center"><p><br></p>
+<p>Picture stolen from martinfowler.com</p>
+</section>
+<section id="focus-on-state" class="slide level2 center">
+<h2>Focus on State!</h2>
+<p><br></p>
+
+<img data-src="./sessions/04_outsidein_without_mocks/focus-on-state.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section>
+<section id="deliberate-practice-and-learning-3" class="slide level2 center">
+<h2>Deliberate Practice and Learning 🤓</h2>
+</section>
+<section id="retrospective-2" class="slide level2 center">
+<h2>Retrospective 🏟️</h2>
+<ul>
+<li>What went well?</li>
+<li>What was your first test?</li>
+</ul>
+</section>
+<section id="enjoy-the-break-2" class="slide level2 center">
+<h2>Enjoy the Break ☕</h2>
+<p><em>And be back in time.</em></p>
+</section></section>
+<section>
+<section id="session-4-outside-in-with-test-doubles-fa-arrow-right-to-bracket" class="title-slide slide level1 center">
+<h1>Session 4: Outside-In with test doubles <i class="fa-solid fa-arrow-right-to-bracket" aria-hidden="true"></i></h1>
+<p><br></p>
+<p>Focus: separation of the system under test<br> and its collaborators 🧬</p>
+<p><br></p>
+<p>Facilitator: Adam Zielinski</p>
+</section>
+<section id="whats-the-item-under-test" class="slide level2 center">
+<h2>What’s the item under test? 🧐</h2>
+<p><br></p>
+<p>Motivation: often the tested unit relies on other units (<strong>collaborators</strong>) to fulfill its behaviour</p>
+<ul>
+<li>state verification and behavior verification</li>
+<li>avoid non-determinism</li>
+<li>speed</li>
+</ul>
+</section>
+<section id="imagine" class="slide level2 center">
+<h2>Imagine… 🌤️</h2>
+<p><br></p>
+<p>Solution: <strong>test doubles</strong> 🪢</p>
+<p>A pattern where you replace a production object for testing purposes <sup>1</sup><sup>2</sup><sup>3</sup></p>
+<p><br></p>
+<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="http://xunitpatterns.com/">xUnit Test Patterns (Meszaros 2007)</a></p></li><li id="fn2"><p><a href="https://martinfowler.com/articles/mocksArentStubs.html">martinfowler.com/articles/mocksArentStubs.html</a></p></li><li id="fn3"><p><a href="https://en.wikipedia.org/wiki/Test_double">wikipedia.org/wiki/Test_double</a></p></li></ol></aside></section>
+<section id="test-double-patterns4" class="slide level2 center">
+<h2>Test double patterns<sup>1</sup> 🪢</h2>
+<div style="font-size: 70%;">
+<ul>
+<li><strong>Dummy</strong> objects are passed around but never actually used. Usually they are just used to fill parameter lists.</li>
+<li><strong>Fake</strong> objects actually have working implementations, but usually take some shortcut which makes them not suitable for production.</li>
+<li><strong>Stubs</strong> provide canned answers to calls made during the test, usually not responding at all to anything outside what’s programmed in for the test.</li>
+<li><strong>Spies</strong> are stubs that also record some information based on how they were called. One form of this might be an email service that records how many messages it was sent.</li>
+<li><strong>Mocks</strong> objects pre-programmed with expectations which form a specification of the calls they are expected to receive.</li>
+</ul>
+</div>
+<p><br></p>
+<aside><ol class="aside-footnotes"><li id="fn4"><p><a href="https://www.martinfowler.com/bliki/TestDouble.html">martinfowler.com/bliki/TestDouble.html</a></p></li></ol></aside></section>
+<section id="test-doubles-goes-tetris" class="slide level2 center">
+<h2>Test doubles goes Tetris 🧬</h2>
+<div style="font-size: 80%;">
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource typescript number-lines code-with-copy"><code class="sourceCode typescript"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">interface</span> Bottom {</span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a>    <span class="co">/** Check a piece has contact with bottom */</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a>    <span class="fu">touches</span>(piece<span class="op">:</span> Piece)<span class="op">:</span> <span class="dt">boolean</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a></span>
+<span id="cb1-6"><a href="#cb1-6"></a>    <span class="co">/** Add the piece to the bottom because it has landed */</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a>    <span class="fu">land</span>(piece<span class="op">:</span> Piece)<span class="op">:</span> <span class="dt">void</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a></span>
+<span id="cb1-9"><a href="#cb1-9"></a>    <span class="co">/**</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="co">     * Check for full lines and remove the returned lines,</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="co">     * empty when no full lines there</span></span>
+<span id="cb1-12"><a href="#cb1-12"></a><span class="co">     * count from bottom, 0 is lowest.</span></span>
+<span id="cb1-13"><a href="#cb1-13"></a><span class="co">     */</span></span>
+<span id="cb1-14"><a href="#cb1-14"></a>    <span class="fu">removeFullLines</span>()<span class="op">:</span> <span class="dt">void</span></span>
+<span id="cb1-15"><a href="#cb1-15"></a></span>
+<span id="cb1-16"><a href="#cb1-16"></a>    <span class="co">/** Return max height of the different columns of bottom. */</span></span>
+<span id="cb1-17"><a href="#cb1-17"></a>    <span class="fu">maximumHeight</span>()<span class="op">:</span> <span class="dt">number</span></span>
+<span id="cb1-18"><a href="#cb1-18"></a></span>
+<span id="cb1-19"><a href="#cb1-19"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="find-a-partner-2" class="slide level2 center">
+<h2>Find a Partner! 👀</h2>
+</section>
+<section id="deliberate-practice-and-learning-4" class="slide level2 center">
+<h2>Deliberate Practice and Learning 🤓</h2>
+</section>
+<section id="retrospective-3" class="slide level2 center">
+<h2>Retrospective 🏟️</h2>
+<ul>
+<li>What went well?</li>
+<li>What was your first test?</li>
+<li>Which role do you prefer, and why?</li>
+</ul>
+</section>
+<section id="enjoy-the-break-3" class="slide level2 center">
+<h2>Enjoy the Break ☕</h2>
+<p><em>And be back in time.</em></p>
+</section></section>
+<section>
+<section id="session-5" class="title-slide slide level1 center">
+<h1>Session 5</h1>
+<p>Focus: Constraints</p>
+<p>Facilitator: Roland Germ <a href="https://twitter.com/rolgerm"><span class="citation" data-cites="rolgerm">@rolgerm</span></a></p>
+</section>
+<section id="what-is-a-constraint" class="slide level2 center">
+<h2>What is a constraint</h2>
+</section>
+<section id="why-do-we-use-constraints" class="slide level2 center">
+<h2>Why do we use constraints</h2>
+<ul>
+<li>slow down</li>
+<li>hindering</li>
+</ul>
+</section>
+<section id="bounded-contexts-of-the-supermarket-domain" class="slide level2 center">
+<h2>Bounded Contexts of the Supermarket Domain</h2>
+
+<img data-src="sessions/06_constraints/step1.png" class="r-stretch"></section>
+<section id="tips" class="slide level2 center">
+<h2>Tips</h2>
+<ul>
+<li>Start by creating directories for the separate domains.</li>
+<li>Decide which code belongs to a domain and move it to the right location (this includes moving methods/functions)</li>
+<li>Create your anti-corruption-layers between the domains (start with the simplest).</li>
+</ul>
+</section>
+<section id="extra-challenge-dont-share-the-product-between-domains" class="slide level2 center">
+<h2>Extra Challenge: Don’t share the Product between domains</h2>
+<p>The Product is somehow a shared model. But in future the Product could be enhanced and each domain needs its own view or selected data of a Product.</p>
+<ul>
+<li>What is needed to identify a product in a domain?</li>
+<li>Which domain does the Printer belong to?</li>
+</ul>
+</section>
+<section id="find-a-partner-3" class="slide level2 center">
+<h2>Find a Partner! 👀</h2>
+</section>
+<section id="deliberate-practice-and-learning-5" class="slide level2 center">
+<h2>Deliberate Practice and Learning 🤓</h2>
+</section>
+<section id="retrospective-4" class="slide level2 center">
+<h2>Retrospective 🏟️</h2>
+<ul>
+<li>Which domains did you create ?</li>
+<li>Which dependencies do you have finally?</li>
+<li>How did name the name the ports and adapters?</li>
+<li>What constructs hindered you?</li>
+<li>What do we achieve by applying a hexagonal architecture</li>
+</ul>
+</section></section>
+<section>
+<section id="our-retreat-is-coming-to-an-end" class="title-slide slide level1 center">
+<h1>Our retreat is coming to an end…</h1>
+
+</section>
+<section id="final-retrospective" class="slide level2 center">
+<h2>Final Retrospective 🏟️</h2>
+<ul>
+<li>What did you learn?</li>
+<li>What did you enjoy?</li>
+<li>What did surprise you?</li>
+<li>What do you take away?</li>
+</ul>
+</section>
+<section id="you-liked-it-come-again" class="slide level2 center">
+<h2>You liked it? Come again! 🔁</h2>
+<p><br></p>
+<p><strong>Coding dojo with Rea @ 2023-11-21</strong></p>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>Follow us on</p>
+<ul>
+<li><a href="softwerkskammer.org/groups/wien">softwerkskammer.org/groups/wien</a></li>
+<li><a href="meetup.com/software-crafters-vienna/">meetup.com/software-crafters-vienna/</a></li>
+</ul>
+</div><div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./sessions/n_outro/meetup-link.svg"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2 center">
+
+<div class="r-fit-text">
+<p>On your way out <br> say thank you 🤝</p>
+</div>
+</section>
+<section class="slide level2 center">
+
+<div class="r-fit-text">
+<p>Thank you for joining! 🎈</p>
+</div>
 
 <img src="https://www.coderetreat.org/assets/logo-300x.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p>Global Day of Codereatreat 2023 by <a href="https://swkwien.github.io/">Softwerkskammer Wien</a> at <a href="https://www.nagarro.com/de">Nagarro</a></p>
 </div>
 </section></section>
+
     </div>
   </div>
 
