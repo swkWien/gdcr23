@@ -18,10 +18,21 @@
 **Coding dojo with Rea @ 2023-11-21**
 
 <br>
+
+:::: {.columns}
+
+::: {.column width="70%"}
 Follow us on
 
-* softwerkskammer.org/groups/wien
-* meetup.com/software-craftsmanship-vienna/
+* [softwerkskammer.org/groups/wien](softwerkskammer.org/groups/wien)
+* [meetup.com/software-crafters-vienna/](meetup.com/software-crafters-vienna/)
+:::
+
+::: {.column width="30%"}
+![](./sessions/n_outro/meetup-link.svg){fig-align="center"}
+:::
+
+::::
 
 ---
 
