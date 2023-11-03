@@ -803,38 +803,45 @@
 <p><br></p>
 <p>Facilitator: Adam Zielinski</p>
 </section>
-<section id="whats-the-item-under-test" class="slide level2 center">
-<h2>What’s the item under test? 🧐</h2>
+<section id="separation-of-concerns" class="slide level2 center">
+<h2>Separation of concerns</h2>
 <p><br></p>
 <p>Motivation: often the tested unit relies on other units (<strong>collaborators</strong>) to fulfill its behaviour</p>
 <ul>
-<li>state verification and behavior verification</li>
-<li>avoid non-determinism</li>
-<li>speed</li>
+<li>What’s the unit under test? 🧐</li>
+<li>Keep code simple (fast, minimal, deterministic, …)</li>
+<li>Test non-pure interfaces (indirect input / indirect output)</li>
 </ul>
 </section>
-<section id="imagine" class="slide level2 center">
-<h2>Imagine… 🌤️</h2>
-<p><br></p>
-<p>Solution: <strong>test doubles</strong> 🪢</p>
+<section id="test-doubles" class="slide level2 center">
+<h2>Test doubles 🪢</h2>
 <p>A pattern where you replace a production object for testing purposes <sup>1</sup><sup>2</sup><sup>3</sup></p>
 <p><br></p>
 <aside><ol class="aside-footnotes"><li id="fn1"><p><a href="http://xunitpatterns.com/">xUnit Test Patterns (Meszaros 2007)</a></p></li><li id="fn2"><p><a href="https://martinfowler.com/articles/mocksArentStubs.html">martinfowler.com/articles/mocksArentStubs.html</a></p></li><li id="fn3"><p><a href="https://en.wikipedia.org/wiki/Test_double">wikipedia.org/wiki/Test_double</a></p></li></ol></aside></section>
-<section id="test-double-patterns4" class="slide level2 center">
-<h2>Test double patterns<sup>1</sup> 🪢</h2>
-<div style="font-size: 70%;">
+<section id="test-double-patterns" class="slide level2 center">
+<h2>Test double patterns 🪢</h2>
 <ul>
-<li><strong>Dummy</strong> objects are passed around but never actually used. Usually they are just used to fill parameter lists.</li>
-<li><strong>Fake</strong> objects actually have working implementations, but usually take some shortcut which makes them not suitable for production.</li>
-<li><strong>Stubs</strong> provide canned answers to calls made during the test, usually not responding at all to anything outside what’s programmed in for the test.</li>
-<li><strong>Spies</strong> are stubs that also record some information based on how they were called. One form of this might be an email service that records how many messages it was sent.</li>
-<li><strong>Mocks</strong> objects pre-programmed with expectations which form a specification of the calls they are expected to receive.</li>
+<li>State verification: Fake Object, Stubs</li>
+<li>Behavior verification: Spy, Mock (the Sherlock Holmes of unit testing)</li>
 </ul>
-</div>
+
+<!--
+::: {style="font-size: 70%;"}
+* **Fake** objects actually have working implementations, but usually take
+  some shortcut which makes them not suitable for production.
+* **Stubs** provide canned answers to calls made during the test,
+  usually not responding at all to anything outside what's programmed in for the test.
+* **Spies** are stubs that also record some information based on how they were called.e
+  One form of this might be an email service that records how many messages it was sent.
+* **Mocks** objects pre-programmed with expectations which form a specification of
+  the calls they are expected to receive.
+:::
+-->
 <p><br></p>
-<aside><ol class="aside-footnotes"><li id="fn4"><p><a href="https://www.martinfowler.com/bliki/TestDouble.html">martinfowler.com/bliki/TestDouble.html</a></p></li></ol></aside></section>
+<p><a href="https://www.martinfowler.com/bliki/TestDouble.html">martinfowler.com/bliki/TestDouble.html</a></p>
+</section>
 <section id="test-doubles-goes-tetris" class="slide level2 center">
-<h2>Test doubles goes Tetris 🧬</h2>
+<h2>Test doubles goes Tetris 🗼</h2>
 <div style="font-size: 80%;">
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource typescript number-lines code-with-copy"><code class="sourceCode typescript"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">interface</span> Bottom {</span>
 <span id="cb1-2"><a href="#cb1-2"></a></span>
@@ -849,7 +856,7 @@
 <span id="cb1-11"><a href="#cb1-11"></a><span class="co">     * empty when no full lines there</span></span>
 <span id="cb1-12"><a href="#cb1-12"></a><span class="co">     * count from bottom, 0 is lowest.</span></span>
 <span id="cb1-13"><a href="#cb1-13"></a><span class="co">     */</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a>    <span class="fu">removeFullLines</span>()<span class="op">:</span> <span class="dt">void</span></span>
+<span id="cb1-14"><a href="#cb1-14"></a>    <span class="fu">removeFullLines</span>()<span class="op">:</span> <span class="dt">number</span>[]</span>
 <span id="cb1-15"><a href="#cb1-15"></a></span>
 <span id="cb1-16"><a href="#cb1-16"></a>    <span class="co">/** Return max height of the different columns of bottom. */</span></span>
 <span id="cb1-17"><a href="#cb1-17"></a>    <span class="fu">maximumHeight</span>()<span class="op">:</span> <span class="dt">number</span></span>
@@ -868,7 +875,7 @@
 <ul>
 <li>What went well?</li>
 <li>What was your first test?</li>
-<li>Which role do you prefer, and why?</li>
+<li>What advantages could you identify when using test doubles?</li>
 </ul>
 </section>
 <section id="enjoy-the-break-3" class="slide level2 center">
