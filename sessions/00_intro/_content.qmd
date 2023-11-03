@@ -69,11 +69,11 @@ Practice - reflect - improve! 🥳
 | 08:20    | Arrival & Breakfast  |
 | 09:00    | Welcome at Nagarro  |
 | 09:10 | Intro Coderetreat 👈 |
-|     | Session 1 by Peter Kofler |
-|     | Session 2 by Patrick Scheibert & Katrin Heiderer  |
-|     | Session 3 by Adam Zielinski  |
+|     | Session 1 by Claus Aichinger |
+|     | Session 2 by Rea  |
+|     | Session 3 by Gregor Riegler  |
 | 13:10 | Lunch Break  |
-|     | Session 4 by Claus Aichinger |
+|     | Session 4 by Adam Zielinski |
 |     | Session 5 by Roland Germ  |
 |     | Final Retrospective
 | 17:00 | Closing |
@@ -83,12 +83,10 @@ Practice - reflect - improve! 🥳
 ## About us 👋
 
 *Facilitators in order of appearance.*
-
-- Peter Kofler [@codecopkofler](https://twitter.com/codecopkofler)
-- Katrin Heiderer &
-  Patrick Scheibert
-- Adam Zielinski [@adam0x5A](https://twitter.com/adam0x5A)
 - Claus Aichinger [@clausaichinger](https://twitter.com/ClausAichinger)
+- Rea
+- Gregor Riegler
+- Adam Zielinski [@adam0x5A](https://twitter.com/adam0x5A)
 - Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 
 ---
