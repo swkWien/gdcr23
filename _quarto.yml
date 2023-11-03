@@ -2,6 +2,11 @@ project:
   render:
     - "*.qmd"
     - "!*private.qmd"
+  # https://quarto.org/docs/reference/projects/options.html
+  preview:
+    port: 4200
+    browser: true
+    watch-inputs: true
 
 format:
   revealjs:

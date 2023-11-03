@@ -1,2 +1,2 @@
 #!/bin/bash
-quarto render --to revealjs
+quarto render
