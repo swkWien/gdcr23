@@ -553,27 +553,49 @@
 </section>
 <section id="tetris" class="slide level2 center">
 <h2>Tetris🕹️🏗️💯</h2>
-
-<img data-src="./sessions/01_kata_and_focus/Tetris_collection_Simon_Laroche.jpg" style="width:90.0%" class="r-stretch quarto-figure-center"><ul>
+<p><br>
+</p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="font-size: 75%;">
+<p><br>
+</p>
+<ul>
 <li>Tetris is a popular block-stacking puzzle game</li>
-<li>Created by Alexey Pajitnov in 1984</li>
-<li>Tetris has been released on a variety of platforms, and standalone products</li>
+<li>Created by Alexey Pajitnov in 1985</li>
 </ul>
-<p>More about the assignment in the first session.</p>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./sessions/01_kata_and_focus/Tetris_collection_Simon_Laroche.jpg"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="pair-programming" class="slide level2 center">
 <h2>Pair Programming 🤝</h2>
-<p>“Pair programming is a conversation between people, where the byproduct is code.”</p>
+<p><br>
+</p>
+<div class="fragment">
+<p><em>“Pair programming is a conversation between people, where the byproduct is code.”</em></p>
+</div>
+</section>
+<section id="pair-programming-habits" class="slide level2 center">
+<h2>Pair Programming Habits 🤝</h2>
 <p>Roles:</p>
 <ul>
 <li>🧭 <strong>Navigator</strong> Giving directions, looking ahead</li>
-<li>🚗 <strong>Driver</strong> Manipulating the code, concerned with small details</li>
+<li>🚗 <strong>Driver</strong> Manipulating the code, concerned with details</li>
 </ul>
+<div class="fragment">
 <p>Procedure:</p>
 <ul>
 <li>Talk to each other</li>
 <li>Switch roles every <strong>regulary</strong></li>
 </ul>
+</div>
 </section>
 <section id="test-driven-development" class="slide level2 center">
 <h2>Test-driven Development 🧪</h2>
@@ -584,15 +606,20 @@
 </ul>
 </div>
 </section>
-<section class="slide level2 center">
-
-<p><em>Today’s practice: TDD styles!</em></p>
+<section id="todays-slogan" class="slide level2 center">
+<h2>Today’s slogan</h2>
+<div class="fragment">
+<ul>
+<li><strong>Exploring different TDD Styles</strong></li>
+<li>Looking at strategies to facilitate test-driven development</li>
+</ul>
+</div>
 </section>
 <section id="how-do-we-get-there" class="slide level2 center">
 <h2>How do we get there? 🤓</h2>
 <ul>
 <li><p>Revisit same problem repeatedly</p></li>
-<li><p>Try different strategies to improve design</p></li>
+<li><p>Try different strategies to improve your know-how and experience</p></li>
 </ul>
 </section>
 <section id="questions-1" class="slide level2 center">
@@ -856,33 +883,42 @@
 </section>
 <section id="what-is-a-constraint" class="slide level2 center">
 <h2>What is a constraint</h2>
+<div class="fragment">
+<p><br>
+<span style="color:red;">COUNTABLE NOUN</span></p>
+<p>A <strong>constraint</strong> is something that limits or controls what you can do.</p>
+</div>
 </section>
-<section id="why-do-we-use-constraints" class="slide level2 center">
-<h2>Why do we use constraints</h2>
-<ul>
-<li>slow down</li>
-<li>hindering</li>
-</ul>
-</section>
-<section id="bounded-contexts-of-the-supermarket-domain" class="slide level2 center">
-<h2>Bounded Contexts of the Supermarket Domain</h2>
+<section id="it-slows-us-down" class="slide level2 center">
+<h2>It slows us down</h2>
 
-<img data-src="sessions/06_constraints/step1.png" class="r-stretch"></section>
-<section id="tips" class="slide level2 center">
-<h2>Tips</h2>
-<ul>
-<li>Start by creating directories for the separate domains.</li>
-<li>Decide which code belongs to a domain and move it to the right location (this includes moving methods/functions)</li>
-<li>Create your anti-corruption-layers between the domains (start with the simplest).</li>
-</ul>
+<img data-src="sessions/06_constraints/snail.jpg" class="r-stretch"></section>
+<section id="it-restricts-our-actions" class="slide level2 center">
+<h2>It restricts our actions</h2>
+
+<img data-src="sessions/06_constraints/challenge.jpg" class="r-stretch"></section>
+<section id="baby-steps" class="slide level2 center">
+<h2>Baby Steps</h2>
+<ol type="1">
+<li>Setup a timer for 5 (or lesser) minutes interval when you start.</li>
+<li>Write exactly one test. When the timer rings: if test is red then delete and start over. if the test is green then continue.</li>
+<li>Restart timer (no discussions in between timers)</li>
+<li>Refactor. If the: timer rings and the refactoring is not complete then delete and start over. refactoring is complete before the timer rings then continue.</li>
+<li>Restart the timer (no discussions in between timers)</li>
+<li>Go to 3.</li>
+</ol>
 </section>
-<section id="extra-challenge-dont-share-the-product-between-domains" class="slide level2 center">
-<h2>Extra Challenge: Don’t share the Product between domains</h2>
-<p>The Product is somehow a shared model. But in future the Product could be enhanced and each domain needs its own view or selected data of a Product.</p>
-<ul>
-<li>What is needed to identify a product in a domain?</li>
-<li>Which domain does the Printer belong to?</li>
-</ul>
+<section id="silentmute-ping-pong" class="slide level2 center">
+<h2>Silent/Mute Ping Pong</h2>
+<p>TODO</p>
+</section>
+<section id="evil-coder" class="slide level2 center">
+<h2>Evil Coder</h2>
+<p>The Driver is antagonistic: They will implement the code that makes the test pass, but may introduce as much complexity into the code as they wish or choose an obscure implementation strategy. This helps guide expressive test intent.</p>
+</section>
+<section id="mob-ensemble-programming" class="slide level2 center">
+<h2>Mob (Ensemble) Programming</h2>
+<p>TODO</p>
 </section>
 <section id="find-a-partner-3" class="slide level2 center">
 <h2>Find a Partner! 👀</h2>
@@ -893,11 +929,10 @@
 <section id="retrospective-4" class="slide level2 center">
 <h2>Retrospective 🏟️</h2>
 <ul>
-<li>Which domains did you create ?</li>
-<li>Which dependencies do you have finally?</li>
-<li>How did name the name the ports and adapters?</li>
-<li>What constructs hindered you?</li>
-<li>What do we achieve by applying a hexagonal architecture</li>
+<li>Which constraint did you choose?</li>
+<li>What went well?</li>
+<li>What was your first test?</li>
+<li>Which role do you prefer, and why?</li>
 </ul>
 </section></section>
 <section>
