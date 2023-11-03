@@ -38,7 +38,7 @@ A pattern where you replace a production object for testing purposes [^1][^2][^3
 
 ---
 
-## Test double patterns[^1] 🪢
+## Test double patterns[^4] 🪢
 
 ::: {style="font-size: 50%;"}
 * **Dummy** objects are passed around but never actually used.
@@ -55,7 +55,7 @@ A pattern where you replace a production object for testing purposes [^1][^2][^3
 
 <br>
 
-[^1]: [martinfowler.com/bliki/TestDouble.html](https://www.martinfowler.com/bliki/TestDouble.html)
+[^4]: [martinfowler.com/bliki/TestDouble.html](https://www.martinfowler.com/bliki/TestDouble.html)
 
 ---
 
@@ -87,6 +87,20 @@ interface Bottom {
 
 ---
 
-{{< include sessions/_pairing.qmd >}}
+{{< include ./sessions/_pairing.qmd >}}
 
+---
 
+{{< include ./sessions/_learning_and_practicing.qmd >}}
+
+---
+
+{{< include ./sessions/_retrospective.qmd >}}
+
+* What went well?
+* What was your first test?
+* Which role do you prefer, and why?
+
+---
+
+{{< include ./sessions/_short_break.qmd >}}
