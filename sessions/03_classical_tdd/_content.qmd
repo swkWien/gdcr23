@@ -1,10 +1,6 @@
-# Session 2
+# Classical TDD {{< fa arrow-right-from-bracket >}}
 
-Focus: Classical TDD 
-
-::: {style="color: #00008b; margin-left:3ex; font-size: 2em; "}
-{{< fa arrow-right-from-bracket >}}
-:::
+Focus: Warm up your TDD and pairing muscles
 
 Facilitator: Rea Sutter 
 
