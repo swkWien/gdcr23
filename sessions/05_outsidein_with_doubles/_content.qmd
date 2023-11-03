@@ -2,7 +2,7 @@
 
 <br>
 
-Focus: separate system under test and its collaborators 🧬
+Focus: separation of the system under test<br> and its collaborators 🧬
 
 <br>
 
@@ -40,7 +40,7 @@ A pattern where you replace a production object for testing purposes [^1][^2][^3
 
 ## Test double patterns[^4] 🪢
 
-::: {style="font-size: 50%;"}
+::: {style="font-size: 70%;"}
 * **Dummy** objects are passed around but never actually used.
   Usually they are just used to fill parameter lists.
 * **Fake** objects actually have working implementations, but usually take
