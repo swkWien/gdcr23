@@ -2,11 +2,11 @@
 
 ---
 
-## Tetris Block-Stacking Puzzle Game 🕹️🏗️💯
+## Tetris🕹️🏗️💯
 
-![](./sessions/01_kata_and_focus/Tetris_collection_Simon_Laroche.jpg){width=80% fig-align="center"}
+![](./sessions/01_kata_and_focus/Tetris_collection_Simon_Laroche.jpg){width=90% fig-align="center"}
 
-* Tetris is a popular video game 
+* Tetris is a popular block-stacking puzzle game 
 * Created by Alexey Pajitnov in 1984
 * Tetris has been released on a variety of platforms, and standalone products
 
@@ -16,7 +16,7 @@ More about the assignment in the first session.
 
 ## Pair Programming 🤝
 
-"byproduct is code"
+""Pair programming is a conversation between people, where the byproduct is code."
 
 Roles:
 
