@@ -1,6 +1,6 @@
 # Session 2
 
-Focus: Ping Pong 🏓
+Focus: Classical TDD {{< fa solid right-from-bracket>}}
 
 Facilitator: Rea Sutter 
 
@@ -8,9 +8,12 @@ Facilitator: Rea Sutter
 
 ## Get Your Hands Dirty 🛠️👷🏗️
 
-Now let's start coding!
+> **Classical TDD / Detroit School**
 
-Work test-driven, start with any test from last session
+
+Work inside out, start with a simple test
+
+You shouldn't need any test doubles
 
 Switch roles ping-pong style
 
@@ -18,48 +21,42 @@ Switch roles ping-pong style
 
 ## How to TDD 🤔✅💡
 
-::: {.fragment}
 🟥 RED - write a test and see it fail
-:::
 
-::: {.fragment}
 🟩 GREEN - write **minimal amount** of code to pass the test
-:::
 
-::: {.fragment}
 🟨 REFACTOR - don't add/change functionality
-:::
 
-::: {.fragment}
+&nbsp;
+
 🔁 REPEAT
-:::
 
 ---
 
 ## How to Ping Pong 🤔🏓💡
 
 ::: {.fragment}
-🅰️ writes a test, sees it fail
+🟥 🅰️ writes a test, sees it fail
 :::
 
 ::: {.fragment}
-🇧 writes the code, sees tests succeed
+🟩 🇧 writes the code, sees test(s) succeed
 :::
 
 ::: {.fragment}
-🅰️ refactors, tests still green
+🟨 🅰️ refactors, test(s) still green
 :::
 
 ::: {.fragment}
-🇧 writes the next test, sees it fail
+🟥 🇧 writes the next test, sees it fail
 :::
 
 ::: {.fragment}
-🅰️ writes the code, sees tests succeed
+🟩 🅰️ writes the code, sees tests succeed
 :::
 
 ::: {.fragment}
-etc.
+🟨 🟥 🟩 🟨 etc.
 :::
 
 ---
@@ -68,25 +65,15 @@ etc.
 
 ---
 
-## Extra Challenge: Explore Directions 🧭🗺️
-
-> Inside out? Outside in?
-
-Which direction are you more comfortable with?
-
-Try the other one!
+{{< include ./sessions/_pairing.qmd >}}
 
 ---
 
-{{< include ../_pairing.qmd >}}
+{{< include ./sessions/_learning_and_practicing.qmd >}}
 
 ---
 
-{{< include ../_learning_and_practicing.qmd >}}
-
----
-
-{{< include ../_retrospective.qmd >}}
+{{< include ./sessions/_retrospective.qmd >}}
 
 * What went well?
 * What was the most difficult part?
@@ -94,4 +81,4 @@ Try the other one!
 
 ---
 
-{{< include ../_short_break.qmd >}}
+{{< include ./sessions/_short_break.qmd >}}
