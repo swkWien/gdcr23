@@ -2,7 +2,7 @@
 
 ---
 
-## Tetris - The Classic Block-Stacking Puzzle Game
+## Tetris 🕹️🏗️💯 - The Classic Block-Stacking Puzzle Game
 
 1. Tetris is a popular video game created by Alexey Pajitnov in 1984.
 1. Tetris is played on a grid where various-shaped blocks, called tetrominoes, fall from the top.
