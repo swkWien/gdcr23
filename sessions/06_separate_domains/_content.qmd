@@ -1,62 +1,24 @@
 # Session 5
 
-Focus: Separating a Domain into Bounded Contexts
+Focus: Constraints
 
 Facilitator: Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 
 ---
 
-## Decoupling into functional Areas
-
-* Which grouping of the domain did you identify in the 1st session today?
-* How should we split a domain in functional areas?
+## What is a constraint
 
 ---
 
-## Domain and Bounded Contexts
+## Why do we use constraints
 
-* A Domain consists the whole model
-* Large models are divided into subdomains or bounded contexts driven by separating business needs
-* A bounded context is a projection of the problem space into the solution space
-* Code that combines two bounded contexts gets convoluted because it's mixing two separate vocabularies together ("Martin Fowler"). 
-
+* slow down
+* hindering
 ---
 
 ## Bounded Contexts of the Supermarket Domain
 
 ![](sessions/06_separate_domains/SupermarketDomain.jpg)
-
----
-
-## Anti-Corruption-Layer - a clear boundary between bounded contexts
-
-![](sessions/06_separate_domains/gateway-sketch.png)
-
----
-
-## The journey from direct dependencies
-
-![](sessions/06_separate_domains/step1.png)
-
----
-
-## To dependency inversion
-
-![](sessions/06_separate_domains/step2.png)
-
----
-
-## Anti-Corruption-Layer
-
-![](sessions/06_separate_domains/step3.png)
-
----
-
-## Multiple Anti-Corruption-Layer building a Hexagonal Architecture
-
-![](sessions/06_separate_domains/step4.png)
-
----
 
 ## Tips
 
