@@ -2,17 +2,13 @@
 
 ---
 
-## Tetris 🕹️🏗️💯 - The Classic Block-Stacking Puzzle Game
+## Tetris Block-Stacking Puzzle Game 🕹️🏗️💯
 
-::: {style="font-size: 80%;"}
-1. Tetris is a popular video game created by Alexey Pajitnov in 1984.
-1. Tetris is played on a grid where various-shaped blocks, called tetrominoes, fall from the top.
-1. The player's goal is to arrange the falling blocks to create complete horizontal lines.
-1. There are seven different tetromino shapes, each consisting of four squares.
-1. Points are earned for completing lines.
-1. Clearing multiple lines at once (a Tetris) yields bonus points.
+* Tetris is a popular video game 
+* Created by Alexey Pajitnov in 1984
+* Tetris has been released on a variety of platforms, and standalone products
+
 More about the assignment in the first session.
-:::
 
 ---
 
