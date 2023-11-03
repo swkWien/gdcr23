@@ -37,15 +37,15 @@ The Product is somehow a shared model. But in future the Product could be enhanc
 
 ---
 
-{{< include ../_pairing.qmd >}}
+{{< include ./sessions/_pairing.qmd >}}
 
 ---
 
-{{< include ../_learning_and_practicing.qmd >}}
+{{< include ./sessions/_learning_and_practicing.qmd >}}
 
 ---
 
-{{< include ../_retrospective.qmd >}}
+{{< include ./sessions/_retrospective.qmd >}}
 
 * Which domains did you create ?
 * Which dependencies do you have finally?
