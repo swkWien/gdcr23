@@ -1,8 +1,8 @@
-# Session 4: Outside-In with test doubles 🧬
+# Session 4: Outside-In with test doubles {{< fa arrow-right-to-bracket >}}
 
 <br>
 
-Focus: separate system under test and its collaborators
+Focus: separate system under test and its collaborators 🧬
 
 <br>
 
