@@ -2,7 +2,7 @@
 
 <br>
 
-Focus: TODO
+Focus: **Ignore the inside** and **avoid mocks** by using **Sociable Tests** and **State-Based Tests**.
 
 <br>
 
@@ -10,11 +10,29 @@ Facilitator: Gregor Riegler
 
 ---
 
-TODO
+## Outside you say?
+
+![](./sessions/04_outsidein_without_mocks/outside-in.png){width=80% fig-align="center"}
 
 ---
 
-{{< include ./sessions/_pairing.qmd >}}
+## Big Units!
+
+<br>
+
+![](./sessions/04_outsidein_without_mocks/isolate.png){width=80% fig-align="center"}
+
+<br>
+
+Picture stolen from martinfowler.com
+
+---
+
+## Focus on State!
+
+<br>
+
+![](./sessions/04_outsidein_without_mocks/focus-on-state.png){width=80% fig-align="center"}
 
 ---
 
