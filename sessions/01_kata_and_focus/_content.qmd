@@ -4,6 +4,8 @@
 
 ## Tetris Block-Stacking Puzzle Game 🕹️🏗️💯
 
+Tetris_collection_Simon_Laroche.jpg
+
 * Tetris is a popular video game 
 * Created by Alexey Pajitnov in 1984
 * Tetris has been released on a variety of platforms, and standalone products
