@@ -2,14 +2,14 @@
 
 ---
 
-## Tetris 🛒🧾🛍️
+## Tetris - The Classic Block-Stacking Puzzle Game
 
-For a collection of items in the shopping cart
-
-1. look up prices,
-1. apply discounts,
-1. compute total and
-1. generate receipt.
+1. Tetris is a popular video game created by Alexey Pajitnov in 1984.
+1. Tetris is played on a grid where various-shaped blocks, called tetrominoes, fall from the top.
+1. The player's goal is to arrange the falling blocks to create complete horizontal lines.
+1. There are seven different tetromino shapes, each consisting of four squares.
+1. Points are earned for completing lines.
+1. Clearing multiple lines at once (a Tetris) yields bonus points.
 
 More about the assignment in the first session.
 
@@ -31,16 +31,6 @@ Procedure:
 
 ---
 
-## Refactoring 🔧
-
-. . .
-
-- Improve code but don't change behavior
-
-- Don't break interfaces
-
----
-
 ## Test-driven Development 🧪
 
 . . .
@@ -51,25 +41,11 @@ Procedure:
 
 ---
 
-## Decoupled Design 🤔
-
-. . .
-
-> What is *design*?
-
-. . .
-
-> Why does it matter?
-
-. . .
-
-*Today's practice: strategies to decouple design!*
+*Today's practice: TDD styles!*
 
 ---
 
 ## How do we get there? 🤓
-
-<!-- TODO: visualize that -->
 
 - Revisit same problem repeatedly
 
