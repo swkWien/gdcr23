@@ -70,7 +70,7 @@ Practice - reflect - improve! 🥳
 | 09:00    | Welcome at Nagarro  |
 | 09:10 | Intro Coderetreat 👈 |
 |     | Session 1 by Claus Aichinger |
-|     | Session 2 by Rea  |
+|     | Session 2 by Rea Sutter | 
 |     | Session 3 by Gregor Riegler  |
 | 13:10 | Lunch Break  |
 |     | Session 4 by Adam Zielinski |
@@ -84,8 +84,8 @@ Practice - reflect - improve! 🥳
 
 *Facilitators in order of appearance.*
 - Claus Aichinger [@clausaichinger](https://twitter.com/ClausAichinger)
-- Rea
-- Gregor Riegler
+- Rea Sutter
+- Gregor Riegler [@gregor_riegler](https://twitter.com/gregor_riegler)
 - Adam Zielinski [@adam0x5A](https://twitter.com/adam0x5A)
 - Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 
