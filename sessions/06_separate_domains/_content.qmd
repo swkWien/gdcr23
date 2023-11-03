@@ -18,7 +18,7 @@ Facilitator: Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 
 ## Bounded Contexts of the Supermarket Domain
 
-![](sessions/06_separate_domains/SupermarketDomain.jpg)
+![](sessions/06_constraints/step1.png)
 
 ## Tips
 
