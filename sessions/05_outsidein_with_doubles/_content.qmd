@@ -112,6 +112,10 @@ interface Bottom {
 
 * Work Outside-In
 * Use test doubles
+  + No framework 😌
+  + python ([Doubles](https://doubles.readthedocs.io/en/latest/) / [unittest.mock](https://docs.python.org/3/library/unittest.mock.html))
+  + JVM ([Mockito](https://site.mockito.org/) / [EasyMock](https://easymock.org/user-guide.html))
+  + JS ([Jest](https://jestjs.io/docs/mock-functions) / [Sinon](https://sinonjs.org/))
 * Extra Challenge: Utilize all methods of `Bottom` interface
 
 ---
