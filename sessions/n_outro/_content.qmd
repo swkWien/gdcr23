@@ -2,12 +2,21 @@
 
 ---
 
-## Final Retrospective 🏟️
+## We explored different strategies to facilitate test-driven development 📊
 
-* What did you learn?
+Put a post-it:
+
+- 🟨 What was most intruiging? Aha-effect! ;)
+- 🟥 Where would you like to invest?
+
+---
+
+## Final Sharing 🏟️
+
 * What did you enjoy?
-* What did surprise you?
-* What do you take away?
+* How do you leave?
+
+*🤏 Briefly.*
 
 ---
 
