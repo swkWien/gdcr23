@@ -6,7 +6,7 @@ Facilitator: Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 
 ---
 
-## What is a constraint
+## What is a constraint 🛝
 
 . . .
 
@@ -29,7 +29,7 @@ A **constraint** is something that limits or controls what you can do.
 
 ---
 
-## Baby Steps
+## Baby Steps 👼
 
 1. Setup a timer for 2 minutes interval when you start.
 1. Write exactly one test. When the timer rings:
@@ -41,7 +41,7 @@ Use the same procedure for Refactoring!
 
 ---
 
-## Silent/Mute Ping Pong
+## Silent/Mute Ping Pong 🤫
 
 * Like Ping Pong Pairs
 * Pairs are not allowed to talk
@@ -49,7 +49,7 @@ Use the same procedure for Refactoring!
 
 ---
 
-## Evil Coder
+## Evil Coder 👻
 
 * Like Mute Ping Pong Pairs
 * Other person is a "lazy evil" programmer
@@ -59,7 +59,7 @@ Use the same procedure for Refactoring!
 
 ---
 
-## Mob (Ensemble) Programming
+## Mob (Ensemble) Programming 👨‍👨‍👧‍👧
 
 * Who will facilitate a Mob session?
 * Group together and take any room outside
