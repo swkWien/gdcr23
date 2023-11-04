@@ -36,6 +36,10 @@ Picture stolen from martinfowler.com
 
 ---
 
+{{< include ./sessions/_pairing.qmd >}}
+
+---
+
 {{< include ./sessions/_learning_and_practicing.qmd >}}
 
 ---
