@@ -10,36 +10,59 @@ Facilitator: Adam Zielinski
 
 ---
 
-## Separation of concerns
+## You'll never walk alone 🚶
 
 <br>
 
 Motivation: often the tested unit relies on other units (**collaborators**) to fulfill its behaviour
 
-* What's the unit under test? 🧐
-* Keep code simple (fast, minimal, deterministic, ...)
+* What's the unit under test? 🧐 (Separation of concerns)
 * Test non-pure interfaces (indirect input / indirect output)
+* Keep code simple: fast, minimal, easy to change
+* Avoid: fragile tests, non-determinism
+
+---
+
+![](./sessions/05_outsidein_with_doubles/easy_change.png){width=80% fig-align="center"}
 
 ---
 
 ## Test doubles 🪢
 
-A pattern where you replace a production object for testing purposes [^1][^2][^3]
-
 <br>
 
-[^1]: [xUnit Test Patterns (Meszaros 2007)](http://xunitpatterns.com/)
-[^2]: [martinfowler.com/articles/mocksArentStubs.html](https://martinfowler.com/articles/mocksArentStubs.html)
-[^3]: [wikipedia.org/wiki/Test_double](https://en.wikipedia.org/wiki/Test_double)
+A pattern where you replace a production object for testing purposes
+
+::: {style="font-size: 70%;"}
+^📚^ [xUnit Test Patterns (Meszaros 2007)](http://xunitpatterns.com/)  
+^📚^ [martinfowler.com/articles/mocksArentStubs.html](https://martinfowler.com/articles/mocksArentStubs.html)  
+^📚^ [wikipedia.org/wiki/Test_double](https://en.wikipedia.org/wiki/Test_double)  
+:::
 
 ---
 
-## Test double patterns 🪢
+## Test double patterns 🥽
+
+. . .
+
+::: {style="font-size: 90%;"}
+* Provide a specific response to a method call
+  * **Fakes**: working implementation, oversimplified
+  * **Stubs**: provides canned answers
+* Verify the behavior of the code under test
+  * **Spy**: records information based on how they were called
+  * **Mock**: defines expectations of how it will be used
+:::
+
+::: {style="font-size: 70%;"}
+^📚^ [The Little Mocker (Clean Code Blog)](https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html)  
+:::
+
+<!--
 
 * State verification: Fake Object, Stubs
 * Behavior verification: Spy, Mock (the Sherlock Holmes of unit testing)
 
-<!--
 ::: {style="font-size: 70%;"}
 * **Fake** objects actually have working implementations, but usually take
   some shortcut which makes them not suitable for production.
@@ -50,11 +73,10 @@ A pattern where you replace a production object for testing purposes [^1][^2][^3
 * **Mocks** objects pre-programmed with expectations which form a specification of
   the calls they are expected to receive.
 :::
--->
-
-<br>
 
 [martinfowler.com/bliki/TestDouble.html](https://www.martinfowler.com/bliki/TestDouble.html)
+
+-->
 
 ---
 
@@ -83,6 +105,14 @@ interface Bottom {
 }
 ```
 :::
+
+---
+
+## Focus areas
+
+* Work Outside-In
+* Use test doubles
+* Extra Challenge: Utilize all methods of `Bottom` interface
 
 ---
 
