@@ -13,7 +13,7 @@ Facilitator: Roland Germ [@rolgerm](https://twitter.com/rolgerm)
 \
 <span style="color:red;">COUNTABLE NOUN</span>
 
-A **constraint** is something that limits or controls what you can do. 
+> A **constraint** is something that limits or controls what you can do. 
 
 ---
 
@@ -59,7 +59,7 @@ Use the same procedure for Refactoring!
 
 ---
 
-## Mob (Ensemble) Programming 👨‍👨‍👧‍👧
+## Ensemble (Mob) Programming 👨‍👨‍👧‍👧
 
 * Who will facilitate a Mob session?
 * Group together and take any room outside
@@ -67,7 +67,7 @@ Use the same procedure for Refactoring!
 
 ---
 
-{{< include ./sessions/_pairing.qmd >}}
+## Find a Partner or Team! 👀
 
 ---
 
