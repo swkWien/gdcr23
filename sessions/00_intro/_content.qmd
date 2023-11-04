@@ -59,18 +59,18 @@ Practice - reflect - improve! 🥳
 
 ## Schedule 🕤 {.smaller}
 
-| Time | Topic  |
-|------|--------|
-| 08:20 | Arrival & Breakfast  |
-| 09:00 | Welcome at Nagarro  |
+| Time  | Topic  |
+|-------|--------|
+| 08:20 | Arrival & Breakfast |
+| 09:00 | Welcome at Nagarro |
 | 09:10 | Intro Coderetreat 👈 |
 | 10:00 | Session 1 by Claus Aichinger |
 | 10:50 | Session 2 by Rea Sutter | 
-| 12:00 | Session 3 by Gregor Riegler  |
-| 13:10 | Lunch Break 1h |
-| 14:10 | Session 4 by Adam Zielinski |
-| 15:20 | Session 5 by Roland Germ  |
-| 16:30 | Final Retrospective
+| 12:20 | Session 3 by Gregor Riegler |
+| 13:30 | Lunch Break |
+| 14:20 | Session 4 by Adam Zielinski |
+| 15:30 | Session 5 by Roland Germ |
+| 16:40 | Final Retrospective
 | 17:00 | Closing |
 
 ---
