@@ -803,29 +803,57 @@
 <p><br></p>
 <p>Facilitator: Adam Zielinski</p>
 </section>
-<section id="separation-of-concerns" class="slide level2 center">
-<h2>Separation of concerns</h2>
+<section id="youll-never-walk-alone" class="slide level2 center">
+<h2>You’ll never walk alone 🚶</h2>
 <p><br></p>
 <p>Motivation: often the tested unit relies on other units (<strong>collaborators</strong>) to fulfill its behaviour</p>
 <ul>
-<li>What’s the unit under test? 🧐</li>
-<li>Keep code simple (fast, minimal, deterministic, …)</li>
+<li>What’s the unit under test? 🧐 (Separation of concerns)</li>
 <li>Test non-pure interfaces (indirect input / indirect output)</li>
+<li>Keep code simple: fast, minimal, easy to change</li>
+<li>Avoid: fragile tests, non-determinism</li>
 </ul>
 </section>
+<section class="slide level2 center">
+
+
+<img data-src="./sessions/05_outsidein_with_doubles/easy_change.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section>
 <section id="test-doubles" class="slide level2 center">
 <h2>Test doubles 🪢</h2>
-<p>A pattern where you replace a production object for testing purposes <sup>1</sup><sup>2</sup><sup>3</sup></p>
 <p><br></p>
-<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="http://xunitpatterns.com/">xUnit Test Patterns (Meszaros 2007)</a></p></li><li id="fn2"><p><a href="https://martinfowler.com/articles/mocksArentStubs.html">martinfowler.com/articles/mocksArentStubs.html</a></p></li><li id="fn3"><p><a href="https://en.wikipedia.org/wiki/Test_double">wikipedia.org/wiki/Test_double</a></p></li></ol></aside></section>
+<p>A pattern where you replace a production object for testing purposes</p>
+<div style="font-size: 70%;">
+<p><sup>📚</sup> <a href="http://xunitpatterns.com/">xUnit Test Patterns (Meszaros 2007)</a><br>
+<sup>📚</sup> <a href="https://martinfowler.com/articles/mocksArentStubs.html">martinfowler.com/articles/mocksArentStubs.html</a><br>
+<sup>📚</sup> <a href="https://en.wikipedia.org/wiki/Test_double">wikipedia.org/wiki/Test_double</a></p>
+</div>
+</section>
 <section id="test-double-patterns" class="slide level2 center">
-<h2>Test double patterns 🪢</h2>
+<h2>Test double patterns 🥽</h2>
+<div class="fragment">
+<div style="font-size: 90%;">
 <ul>
-<li>State verification: Fake Object, Stubs</li>
-<li>Behavior verification: Spy, Mock (the Sherlock Holmes of unit testing)</li>
+<li>Provide a specific response to a method call
+<ul>
+<li><strong>Fakes</strong>: working implementation, oversimplified</li>
+<li><strong>Stubs</strong>: provides canned answers</li>
+</ul></li>
+<li>Verify the behavior of the code under test
+<ul>
+<li><strong>Spy</strong>: records information based on how they were called</li>
+<li><strong>Mock</strong>: defines expectations of how it will be used</li>
+</ul></li>
 </ul>
+</div>
+<div style="font-size: 70%;">
+<p><sup>📚</sup> <a href="https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html">The Little Mocker (Clean Code Blog)</a></p>
+</div>
 
 <!--
+
+* State verification: Fake Object, Stubs
+* Behavior verification: Spy, Mock (the Sherlock Holmes of unit testing)
+
 ::: {style="font-size: 70%;"}
 * **Fake** objects actually have working implementations, but usually take
   some shortcut which makes them not suitable for production.
@@ -836,9 +864,11 @@
 * **Mocks** objects pre-programmed with expectations which form a specification of
   the calls they are expected to receive.
 :::
+
+[martinfowler.com/bliki/TestDouble.html](https://www.martinfowler.com/bliki/TestDouble.html)
+
 -->
-<p><br></p>
-<p><a href="https://www.martinfowler.com/bliki/TestDouble.html">martinfowler.com/bliki/TestDouble.html</a></p>
+</div>
 </section>
 <section id="test-doubles-goes-tetris" class="slide level2 center">
 <h2>Test doubles goes Tetris 🗼</h2>
@@ -863,6 +893,14 @@
 <span id="cb1-18"><a href="#cb1-18"></a></span>
 <span id="cb1-19"><a href="#cb1-19"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</section>
+<section id="focus-areas" class="slide level2 center">
+<h2>Focus areas</h2>
+<ul>
+<li>Work Outside-In</li>
+<li>Use test doubles</li>
+<li>Extra Challenge: Utilize all methods of <code>Bottom</code> interface</li>
+</ul>
 </section>
 <section id="find-a-partner-2" class="slide level2 center">
 <h2>Find a Partner! 👀</h2>
@@ -993,7 +1031,6 @@
 <p>Global Day of Codereatreat 2023 by <a href="https://swkwien.github.io/">Softwerkskammer Wien</a> at <a href="https://www.nagarro.com/de">Nagarro</a></p>
 </div>
 </section></section>
-
     </div>
   </div>
 
